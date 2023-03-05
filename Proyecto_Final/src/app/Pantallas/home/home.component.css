@@ -1,0 +1,10 @@
+body {
+    min-height: 61rem;
+    background-color: rgb(97, 156, 156);
+}
+
+.frase{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

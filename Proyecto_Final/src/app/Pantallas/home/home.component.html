@@ -1,0 +1,32 @@
+<body>
+    <div class="text-light inicio" style="margin-bottom: 3rem;">
+        <H1 style="text-align: center;">Generador de frases aleatorias</H1>
+        <h5 style="text-align: center;">Acá podrás generar diferentes frases y darles el uso que desees!</h5>
+    </div>
+    <main class="frase container bg-gradient-secondary">
+        <div class=" bg-light p-5 rounded" style="align-items: center; border-style:solid">
+            <h1>”</h1>
+            <p class="blockquote"  style="text-align: center;">{{informacionRecibida.content}}</p>
+            <p class="blockquote-footer" style="text-align: right;">{{informacionRecibida.author}}</p>
+            <button type="button" class="boton btn btn-dark" style="align-items: end; justify-content: center;" (click)="refrescarFrase()">Click para generar una frase nueva</button>
+        </div>
+    </main>
+    <div class="bottom text-light inicio" style="margin-top: 3rem; margin-left: 2rem;">
+        <h3>Sabías que hay diferentes tipos de frases?</h3>
+        <p class="lead">Acá te muestro algunos ejemplos:</p>
+        <ul>
+            <li>
+                <h4>Frases célebres</h4>
+                <p class="lead">Las frases célebres son aquellas pronunciadas por personalidades destacadas o famosas y, su influencia se debe a su sentido moral, instructivo, etcétera.</p>
+            </li>
+            <li>
+                <h4>Frases hechas</h4>
+                <p class="lead">Las frases hechas son expresiones a modo de proverbio, de uso común por los habitantes de una comunidad, con sentido figurado y, de forma inalterable, por ejemplo: ¡Como anillo al dedo!</p>
+            </li>
+            <li>
+                <h4>Frases sacramentales</h4>
+                <p class="lead">Las frases sacramentales son aquellas que deben de ser contempladas en algún documento o expresadas como requisito. Las frases sacramentales, son formales y rigurosas.</p>
+            </li>
+        </ul>
+    </div>
+</body>

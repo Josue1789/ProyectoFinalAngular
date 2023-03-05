@@ -1,0 +1,22 @@
+<div class="card mb-3" style="max-width: 540px;">
+    <div class="row g-0" style="border-style:solid;">
+      <div class="col-md-4">
+        <img src="/assets/me.jpg" class="img-fluid rounded-start rounded-end" style="margin-top: 3px; margin-left: 3px;">
+      </div>
+      <div class="col-md-8">
+        <div class="card-body">
+          <h4 class="card-title">Josue Lobo Solano</h4>
+          <h6 class="card-title">San Jose, Costa Rica</h6>
+          <p class="card-text">Desarrollador Web Full Stack con experiencia en redes y cloud(Azure)</p>
+          <button type="button" class="btn btn-outline-primary" (click)="mostrartexto()">Tecnologias utilizadas en este proyecto:</button>
+          <div *ngIf="mostrar">
+              <ul>
+                <li>Angular</li>
+                <li>Typescript</li>
+                <li>Bootstrap</li>
+              </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+</div>
